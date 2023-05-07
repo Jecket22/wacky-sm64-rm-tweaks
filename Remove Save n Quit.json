@@ -1,0 +1,24 @@
+{
+  "Name": "Remove Save n Quit",
+  "Scripts": [
+    {
+      "Name": "Apply",
+      "Script": "// Remove Save and Quit\r\n\r\n// Change rendering\r\n//   render_save_confirmation\r\n//   Reduce menu options from 3 to 2\r\n//   0x802DD8EC\r\n988EC:\r\n24 07 00 02 // ADDIU A3, R0, 0x0002 // 24 07 00 03 // ADDIU A3, R0, 0x0003\r\n\r\n//   Disable rendering Save And Quit option\r\n//   0x802DD988\r\n98988:\r\n00 00 00 00 // NOP                  // 0C 0B 5D F7 // JAL   0x802D77DC\r\n\r\n//   Replace Y rendering position of Continue Don't Save option\r\n//   0x802DD9A4\r\n989A4:\r\n24 A5 FF EC // ADDIU A1, A1, 0xFFEC // 24 A5 FF D8 // ADDIU A1, A1, 0xFFD8\r\n\r\n// Change option handler\r\n//   handle_save_menu\r\n//   0x8025733C\r\n//   Skip checking Save And Quit option\r\n12380:\r\n10 00 00 12 // B         0x802573CC // 15 E1 00 0D // BNE   T7, At, 0x802573B8",
+      "Type": "TweakScript",
+      "Description": "",
+      "References": [],
+      "ID": "E0E85E06B5D4E288A751FA9B02AE5C45",
+      "AllowRevert": false
+    }
+  ],
+  "Version": "1.0.0.0",
+  "MinVersion": "1.12.14.0",
+  "MaxVersion": "0.0.0.0",
+  "Description": "",
+  "EmbeddedFiles": {
+    "CompressedFiles": {}
+  },
+  "ID": "632F0ED8D1C6BA73B27A86772FAAA6A0",
+  "Official": false,
+  "Recommended": false
+}

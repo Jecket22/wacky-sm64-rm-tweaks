@@ -1,0 +1,24 @@
+{
+  "Name": "Don't stop music when pausing",
+  "Scripts": [
+    {
+      "Name": "Apply",
+      "Script": ".orga 0x6590\r\n    LI A0, 2\r\n    \r\n.orga 0x6614\r\n    LI A0, 2",
+      "Type": "Armips",
+      "Description": "",
+      "References": [],
+      "ID": "9F07C7985D94576DBED1E92700A4E93F",
+      "AllowRevert": false
+    }
+  ],
+  "Version": "1.0.0.0",
+  "MinVersion": "1.0.0.0",
+  "MaxVersion": "0.0.0.0",
+  "Description": "Prevents music (and sounds) from being stopped when pausing. Music will still be quieter when pausing.\r\n\r\nAssembly Script by Pyro Jay??",
+  "EmbeddedFiles": {
+    "CompressedFiles": {}
+  },
+  "ID": "06692FBA2EA1BF09979517DD69884F78",
+  "Official": false,
+  "Recommended": false
+}

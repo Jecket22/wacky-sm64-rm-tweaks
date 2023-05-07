@@ -1,0 +1,78 @@
+{
+  "Name": "Bowser Tweaks",
+  "Scripts": [
+    {
+      "Name": "Set Bowser's health in fight 1",
+      "Script": "EB5F4: [8, \"Set Health (Default: 1)\"]",
+      "Type": "TweakScript",
+      "Description": "",
+      "References": [],
+      "ID": "1FD57D2577C20E2A0E3DA3CB9AF05602",
+      "AllowRevert": false
+    },
+    {
+      "Name": "Set Bowser's health in fight 2",
+      "Script": "EB5F5: [8, \"Set Health (Default: 1)\"]",
+      "Type": "TweakScript",
+      "Description": "",
+      "References": [],
+      "ID": "DFE8F6222FD7ADCA51EC98465E6F4C93",
+      "AllowRevert": false
+    },
+    {
+      "Name": "Set Bowser's health in fight 3",
+      "Script": "EB5F6: [8, \"Set Health (Default: 3)\"]",
+      "Type": "TweakScript",
+      "Description": "",
+      "References": [],
+      "ID": "EFFB9C1975CEDED835E63595902E00F8",
+      "AllowRevert": false
+    },
+    {
+      "Name": "Set levitation velocity (DESC, F)",
+      "Script": "71956: [16, \"Set levitation velocity (Default: 20 / 0x41A0)\"]",
+      "Type": "TweakScript",
+      "Description": "This only applies to the 1st and 2nd bowser fight, where Bowser twirls up at the end of the fight.\r\nThe value is a float so you need to convert your value accordingly.\r\nI found a tool that does this: https://gregstoll.com/~gregstoll/floattohex/\r\nExample: If you enter 20 as a float value and convert it to hex you'd get 0x41A000(...), remove the last 2 bytes and you'd have 0x41A0.\r\nConvert it to a decimal and you'd have 16800, that's the number you enter in the prompt.\r\nExample 2: 10 as a float value results in 0x4120, converted to a decimal it's 16672.",
+      "References": [],
+      "ID": "F65D651B82A6CCF29BD11BC8A6C00327",
+      "AllowRevert": false
+    },
+    {
+      "Name": "Set stage for shockwaves to spawn (DESC)",
+      "Script": "6F197: [8, \"Set stage for shockwaves to spawn in (Default: 2)\"]",
+      "Type": "TweakScript",
+      "Description": "0 = Bowser in the Dark World (1st Fight)\r\n1 = Bowser in the Fire Sea (2nd Fight)\r\n2 = Bowser in the Sky (Final Fight)",
+      "References": [],
+      "ID": "AABFF5728F4044D7286DD9FDBDD00F26",
+      "AllowRevert": false
+    },
+    {
+      "Name": "Set charging speed (DESC, F)",
+      "Script": "70CEA: [16, \"Set charging speed (Default: 50 / 0x4148)\"]",
+      "Type": "TweakScript",
+      "Description": "The value is a float so you need to convert your value accordingly.\r\nI found a tool that does this: https://gregstoll.com/~gregstoll/floattohex/\r\nExample: If you enter 20 as a float value and convert it to hex you'd get 0x41A000(...), remove the last 2 bytes and you'd have 0x41A0.\r\nConvert it to a decimal and you'd have 16800, that's the number you enter in the prompt.\r\nExample 2: 10 as a float value results in 0x4120, converted to a decimal it's 16672.",
+      "References": [],
+      "ID": "06127E61C525E4EBCC53E6FD610F874C",
+      "AllowRevert": false
+    },
+    {
+      "Name": "Set Bowser's walking speed (DESC, F)",
+      "Script": "6F2AA: [16, \"Set walking speed (Default: 3 / 0x4040)\"]\r\n6F30A: [copy, 6F2AA, 6F2AB]",
+      "Type": "TweakScript",
+      "Description": "The value is a float so you need to convert your value accordingly.\r\nI found a tool that does this: https://gregstoll.com/~gregstoll/floattohex/\r\nExample: If you enter 20 as a float value and convert it to hex you'd get 0x41A000(...), remove the last 2 bytes and you'd have 0x41A0.\r\nConvert it to a decimal and you'd have 16800, that's the number you enter in the prompt.\r\nExample 2: 10 as a float value results in 0x4120, converted to a decimal it's 16672.",
+      "References": [],
+      "ID": "2383868DDA45D6869B08E07D37211F94",
+      "AllowRevert": false
+    }
+  ],
+  "Version": "1.0.0.0",
+  "MinVersion": "1.13.12.0",
+  "MaxVersion": "0.0.0.0",
+  "Description": "Vague tweaks with (DESC) appended have a description, explaining what values to enter.\r\n\r\nCredits to Jecket",
+  "EmbeddedFiles": {
+    "CompressedFiles": {}
+  },
+  "ID": "E0F808055E0156F96B91F09B3525D05D",
+  "Official": false,
+  "Recommended": false
+}

@@ -1,0 +1,33 @@
+{
+  "Name": "Replace Grand Star with Bowser Key",
+  "Scripts": [
+    {
+      "Name": "Apply",
+      "Script": ".orga 0x715E4\r\nADDIU T7, R0, 0x1",
+      "Type": "Armips",
+      "Description": "",
+      "References": [],
+      "ID": "9FEBF446C1FAC6F76613C84393A47DA5",
+      "AllowRevert": false
+    },
+    {
+      "Name": "Revert",
+      "Script": "715E4: 8D CF 01 44",
+      "Type": "TweakScript",
+      "Description": "",
+      "References": [],
+      "ID": "C1CCFA37A08098F0AD67FD7D3ACAFA1E",
+      "AllowRevert": false
+    }
+  ],
+  "Version": "1.0.0.0",
+  "MinVersion": "1.0.0.0",
+  "MaxVersion": "0.0.0.0",
+  "Description": "ASM by MrComit\r\nSeems to softlock after the key spawns",
+  "EmbeddedFiles": {
+    "CompressedFiles": {}
+  },
+  "ID": "CBC338B58744BE0862A327C61BA27C9F",
+  "Official": false,
+  "Recommended": false
+}

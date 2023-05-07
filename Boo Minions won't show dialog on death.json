@@ -1,0 +1,33 @@
+{
+  "Name": "Boo Minions won't show dialog on death",
+  "Scripts": [
+    {
+      "Name": "Apply",
+      "Script": ".org 0x7f7a4\r\nbnez $v0, 0x7f7e8\r\nsw $0, 0x1c($sp)",
+      "Type": "Armips",
+      "Description": "",
+      "References": [],
+      "ID": "6FBC0EE5D77E37C50A4E7C7CA011085F",
+      "AllowRevert": false
+    },
+    {
+      "Name": "Revert",
+      "Script": "7F7A7: 04 00 00 00 00",
+      "Type": "TweakScript",
+      "Description": "",
+      "References": [],
+      "ID": "20F169DE43ADB737FB3D8F286587AF17",
+      "AllowRevert": false
+    }
+  ],
+  "Version": "1.0.0.0",
+  "MinVersion": "1.0.0.0",
+  "MaxVersion": "0.0.0.0",
+  "Description": "Assembly by strat",
+  "EmbeddedFiles": {
+    "CompressedFiles": {}
+  },
+  "ID": "82087EB8A39F8421DAB5B5D08BBDD930",
+  "Official": false,
+  "Recommended": false
+}

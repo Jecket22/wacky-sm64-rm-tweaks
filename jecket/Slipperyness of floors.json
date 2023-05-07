@@ -1,0 +1,60 @@
+{
+  "Name": "Slipperyness of floors",
+  "Scripts": [
+    {
+      "Name": "New Script",
+      "Script": "tid",
+      "Type": "TweakScript",
+      "Description": "",
+      "References": [],
+      "ID": "F63DC9EF81125DC0815CFD57C0FD645D",
+      "AllowRevert": false
+    },
+    {
+      "Name": "New Script",
+      "Script": "tid",
+      "Type": "TweakScript",
+      "Description": "",
+      "References": [],
+      "ID": "E9F8830612F6B857DC45B81638905598",
+      "AllowRevert": false
+    },
+    {
+      "Name": "New Script",
+      "Script": "tid",
+      "Type": "TweakScript",
+      "Description": "",
+      "References": [],
+      "ID": "B497FE43F62C0329E1A8A7E1DB6257C3",
+      "AllowRevert": false
+    },
+    {
+      "Name": "Very Slippery (Slides)",
+      "Script": "1F84E: [16, \"Acceleration Speed\", hex]\r\n//F1AA8: [16, \"Slope Acceleration\", hex]",
+      "Type": "TweakScript",
+      "Description": "",
+      "References": [],
+      "ID": "A03301AC0273784751BFCA4FBFFE758D",
+      "AllowRevert": false
+    },
+    {
+      "Name": "Lossfactor thingy",
+      "Script": "F1A80: 3C A3 // 3B A3",
+      "Type": "TweakScript",
+      "Description": "",
+      "References": [],
+      "ID": "95BD606A0DB437FC60C45D4095972DC8",
+      "AllowRevert": false
+    }
+  ],
+  "Version": "1.0.0.0",
+  "MinVersion": "1.0.0.0",
+  "MaxVersion": "0.0.0.0",
+  "Description": "All values are floats! Default values:\r\nNot-Slippery: 40A0 (5f, )\r\nNormal: 40E0 (7f, )\r\nSlippery: 4100 (8f, )\r\nVery Slippery (Slide): 4120 (10f, 16672)",
+  "EmbeddedFiles": {
+    "CompressedFiles": {}
+  },
+  "ID": "CACED83436D7344F4087C4127CA04FB0",
+  "Official": false,
+  "Recommended": false
+}

@@ -1,0 +1,42 @@
+{
+  "Name": "Koopa The Quick's Speed",
+  "Scripts": [
+    {
+      "Name": "Set Speed when Mario cheats",
+      "Script": "B81D6: [16, \"Set Speed\", hex]",
+      "Type": "TweakScript",
+      "Description": "",
+      "References": [],
+      "ID": "808FE10A4E1559FEDF454BA9FEECC975",
+      "AllowRevert": false
+    },
+    {
+      "Name": "Set Speed for KTQ #1",
+      "Script": "B821A: [16, \"Set Speed\", hex]",
+      "Type": "TweakScript",
+      "Description": "",
+      "References": [],
+      "ID": "3605BEBD49BA276269981B9A7468C402",
+      "AllowRevert": false
+    },
+    {
+      "Name": "Set Speed for KTQ #2",
+      "Script": "B8202: [16, \"Set Speed\", hex]",
+      "Type": "TweakScript",
+      "Description": "",
+      "References": [],
+      "ID": "0CD247EFAD6C73895F1A28D8F75C53ED",
+      "AllowRevert": false
+    }
+  ],
+  "Version": "1.0.0.0",
+  "MinVersion": "1.11.0.0",
+  "MaxVersion": "0.0.0.0",
+  "Description": "All values are floats!\r\n- Default Values -\r\nKTQ after being cheated on: 4100 (8.0f, 16640)\r\nKTQ #2 (in Tiny Huge Island): 40C0 (6.0f, 16576)\r\nKTQ #1 (in Bob-Omb Battlefield): 4080 (4.0f, 16512)\r\nCredits to Jecket",
+  "EmbeddedFiles": {
+    "CompressedFiles": {}
+  },
+  "ID": "1CFF9CD7F3DE1294198E0CA1744326AD",
+  "Official": false,
+  "Recommended": false
+}

@@ -1,0 +1,33 @@
+{
+  "Name": "Boo Minions won't show dialogs on death",
+  "Scripts": [
+    {
+      "Name": "Apply",
+      "Script": "7F790: 27 BD FF E8 AF BF 00 14 3C 04 13 00 0C 0A 7E 57 24 84 28 04 14 40 00 12 00 00 00 00 24 04 00 02 24 05 00 02 24 06 00 6C 0C 0A 92 58 00 00 38 25 10 40 00 09 00 00 00 00 3C 04 50 24 0C 0B 28 65 34 84 40 81 0C 0C 88 50 00 00 00 00 3C 04 80 36 0C 0A 81 5A 8C 84 11 C0 10 00 00 04 00 00 00 00 3C 04 80 36 0C 0A 81 5A 8C 84 11 C0 10 00 00 01 00 00 00 00 8F BF 00 14 27 BD 00 18 03 E0 00 08 90 90 90 90 90 90 90 90 09 90 09 90 09 90 90 90 00 00 00 00",
+      "Type": "TweakScript",
+      "Description": "",
+      "References": [],
+      "ID": "96171BE6B02C80AA2C8F1DD53B7A023A",
+      "AllowRevert": false
+    },
+    {
+      "Name": "Revert",
+      "Script": "7F790: 27 BD FF E0 AF BF 00 14 3C 04 13 00 0C 0A 7E 57 24 84 28 04 14 40 00 04 00 00 00 00 24 0E 00 6C 10 00 00 03 AF AE 00 1C 24 0F 00 6B AF AF 00 1C 24 04 00 02 24 05 00 02 8F A6 00 1C 0C 0A 92 58 00 00 38 25 10 40 00 0D 00 00 00 00 3C 04 50 24 0C 0B 28 51 34 84 40 81 3C 04 80 36 0C 0A 81 5A 8C 84 11 60 8F B8 00 1C 24 01 00 6C 17 01 00 03 00 00 00 00 0C 0C 88 3C 00 00 00 00 10 00 00 01 00 00 00 00 8F BF 00 14 27 BD 00 20 03 E0 00 08 00 00 00 00",
+      "Type": "TweakScript",
+      "Description": "",
+      "References": [],
+      "ID": "FA55EDE59ACB0D86A6BF8CD2608958AD",
+      "AllowRevert": false
+    }
+  ],
+  "Version": "1.0.0.0",
+  "MinVersion": "1.0.0.0",
+  "MaxVersion": "0.0.0.0",
+  "Description": "Prevents Boo Minions (not regular Boo's) from showing dialog 107 \"Killing Boo (BBH)\".\r\nDoesn't affect Big Boo's dialog (108 \"All Boos killed (BBH)\") when all Boo Minions are defeated.\r\n\r\nCredits to Jecket",
+  "EmbeddedFiles": {
+    "CompressedFiles": {}
+  },
+  "ID": "005FEE317E817C27986FF17B1D0A1D0A",
+  "Official": false,
+  "Recommended": false
+}

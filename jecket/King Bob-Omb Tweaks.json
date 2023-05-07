@@ -1,0 +1,51 @@
+{
+  "Name": "King Bob-Omb Tweaks",
+  "Scripts": [
+    {
+      "Name": "Set health (Int)",
+      "Script": "622DB: [8, \"Set Health Count (Default: 3)\"]",
+      "Type": "TweakScript",
+      "Description": "",
+      "References": [],
+      "ID": "5A098345C0128B85601E304D3D6867CA",
+      "AllowRevert": false
+    },
+    {
+      "Name": "Set walking speed (Float)",
+      "Script": "624DA: [16, \"Set walking speed (Default: 0x4080)\", hex]",
+      "Type": "TweakScript",
+      "Description": "Suggested value: 0x40C0 (16576)",
+      "References": [],
+      "ID": "C5300EB5B63B24E5BCF1F44AA6BD22A4",
+      "AllowRevert": false
+    },
+    {
+      "Name": "Set rotation speed (Int)",
+      "Script": "624FA: [16, \"Set rotaion speed (Default: 0x0100)\"]",
+      "Type": "TweakScript",
+      "Description": "Suggested value: 0x0400 (1024)",
+      "References": [],
+      "ID": "1C1487C441682C2A3018F65F3F7E7680",
+      "AllowRevert": false
+    },
+    {
+      "Name": "Set throwing strength (Float)",
+      "Script": "6223A: [16, \"Set throwing strength (Default: 0x4248)\"]",
+      "Type": "TweakScript",
+      "Description": "Suggested value: 0x42A8",
+      "References": [],
+      "ID": "DA7AB0E5561031B7B8E0D513B60C0F7D",
+      "AllowRevert": false
+    }
+  ],
+  "Version": "1.0.0.0",
+  "MinVersion": "1.11.0.0",
+  "MaxVersion": "0.0.0.0",
+  "Description": "Tweak for changing the properties of King Bob-Omb.\r\n- Suggested values (convert to decimal for input) -\r\nWalking speed: 0x40C0\r\nRotation speed: 0x0400\r\nThrowing strength: 0x42A8",
+  "EmbeddedFiles": {
+    "CompressedFiles": {}
+  },
+  "ID": "94A68B01EB06CC2B96B6CA42E2175BAD",
+  "Official": false,
+  "Recommended": false
+}

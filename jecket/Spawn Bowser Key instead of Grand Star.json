@@ -1,0 +1,33 @@
+{
+  "Name": "Spawn Bowser Key instead of Grand Star",
+  "Scripts": [
+    {
+      "Name": "Apply",
+      "Script": "// Replace called bhv? - MrComit\r\n715E4: 24 0F 00 01\r\n// Replace bhv script\r\n21B51C: 2D 00 00 00 30 00 00 00 00 1E FE 70 FF BA 03 E8 03 E8 00 C8 00\r\n21B53E: 36 00\r\n// I forgot what this did\r\n// 715FA: 16 E4\r\n// 71607: CC",
+      "Type": "TweakScript",
+      "Description": "",
+      "References": [],
+      "ID": "FA7BF2785F76E49321481E1DA007444F",
+      "AllowRevert": false
+    },
+    {
+      "Name": "Revert",
+      "Script": "// revert called bhv change?\r\n715E4: 8D CF 01 44\r\n// revert bhv data change\r\n21B51C: 2F 00 00 00 00 00 10 00 10 42 08 00 23 00 00 00 00 A0 00 64 2D\r\n21B53E: 32 9C\r\n// I forgot what this did\r\n// 715FA: 17 14\r\n// 71607: 7A",
+      "Type": "TweakScript",
+      "Description": "",
+      "References": [],
+      "ID": "2E666069410F6D97EB749954885ABD05",
+      "AllowRevert": false
+    }
+  ],
+  "Version": "1.0.0.0",
+  "MinVersion": "1.13.12.0",
+  "MaxVersion": "0.0.0.0",
+  "Description": "Only works in Bowser In The Sky (Bowser 3rd battle), doesn't affect other levels.\r\n\r\nCredits to MrComit / Jecket",
+  "EmbeddedFiles": {
+    "CompressedFiles": {}
+  },
+  "ID": "E58ACC6FEB205FE970741689AF1625ED",
+  "Official": false,
+  "Recommended": false
+}
