@@ -1,0 +1,33 @@
+{
+  "Name": "Lava takes 2 damage instead of 3",
+  "Scripts": [
+    {
+      "Name": "Apply",
+      "Script": "// With Cap\r\nB6D7: 08\r\n1A813: 08\r\n251B7: 08\r\n293A3: 08\r\n// Without Cap\r\nB6DB: 0C\r\n1A817: 0C\r\n251BB: 0C\r\n293A7: 0C",
+      "Type": "TweakScript",
+      "Description": "",
+      "References": [],
+      "ID": "F692D682F7C2F6B5D2946C90701FE7A8",
+      "AllowRevert": false
+    },
+    {
+      "Name": "Revert",
+      "Script": "// With Cap\r\nB6D7: 0C\r\n1A813: 0C\r\n251B7: 0C\r\n293A3: 0C\r\n// Without Cap\r\nB6DB: 12\r\n1A817: 12\r\n251BB: 12\r\n293A7: 12",
+      "Type": "TweakScript",
+      "Description": "",
+      "References": [],
+      "ID": "8B524BBB874ED2B65DBD2522C98A0F01",
+      "AllowRevert": false
+    }
+  ],
+  "Version": "1.0.0.0",
+  "MinVersion": "1.0.0.0",
+  "MaxVersion": "0.0.0.0",
+  "Description": "Credits to Jecket",
+  "EmbeddedFiles": {
+    "CompressedFiles": {}
+  },
+  "ID": "D1590462C41E333E0D8213A42B1483BC",
+  "Official": false,
+  "Recommended": false
+}
